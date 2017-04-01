@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body {
+    direction: rtl;
+    font-family: 'Open Sans Hebrew', sans-serif;
+    background-color:lightcoral;
+    color: whitesmoke;
+}
+
+#container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -30px;
+}
+
+header {
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+
+h1 {
+    font-size: 30pt;
+    margin-bottom: -10px;
+}
+
+#picture {
+    margin-right: 675px;
+    margin-top: -96px;
+    width: 310px;
+    background-image: url('../images/20160812_141741_HDR (2).jpg');
+    height: 741px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10%;
+}
+
+#all {
+    margin-top: -690px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    background-image: url(../images/lev.png);
+    background-repeat: no-repeat;
+    background-position: right 3px;
+    background-size: 20px auto;
+}
+
+.bullet {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    z-index:2;
+}
+
+    .bullet:hover {
+        background-color: crimson;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border-radius: 10px 10px 10px 10px;
+            z-index:2;
+    }
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    display:inline-block;
+    background-size:contain;
+}
+
+#mail{
+    background-image:url(../images/mail.png);
+}
+
+#face{
+    background-image:url(../images/facebook.png);
+}
+
+#insta{
+    background-image:url(../images/insta.png);
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#home {
+    margin-top:40px;
+    display:block;
+}
+
+#bait{
+    background-image:url(../images/home.png);
+    width:40px;
+    height:40px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+p {
+    display: block;
+}
+
+.icon:hover {
+-moz-transform: scale(1.8);
+-webkit-transform: scale(1.8);
+-o-transform: scale(1.8);
+-ms-transform: scale(1.8);
+transform: scale(1.8);
+}
